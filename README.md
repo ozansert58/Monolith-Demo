@@ -179,24 +179,172 @@ src/
 - Lazy loading ve code splitting
 - Virtual scrolling (windowing)
 - Debouncing ve throttling
-### Planlama Dashboard
-Proje ilerleme takibi, tarih yönetimi ve genel bakış ekranı.
+## 📸 Ekran Görüntüleri
+
+### 🏠 Planlama Dashboard
+Ana kontrol paneli - Proje ilerleme takibi ve genel bakış
 
 ![Planlama Dashboard](screenshots/dashboard-planlama.png)
 
-*Özellikler:*
-- Proje başlangıç ve bitiş tarihleri
-- Toplam süre hesaplama
-- İlerleme yüzdesi ve durum göstergesi
-- Toplam parça sayısı ve üretim durumu
-- Gerçek zamanlı istatistikler
+<details>
+<summary>📋 <strong>Dashboard Özellikleri</strong></summary>
 
-Daha fazla ekran görüntüsü için [SCREENSHOTS.md](SCREENSHOTS.md) dosyasına bakın.
-### Raporlama Paneli
-- Rapor şablonları
-- Tarih aralığı seçimi
-- Excel ve PDF export
-- Özelleştirilebilir filtreler
+#### Üst Panel - Tarih ve Süre Yönetimi
+- 📅 **Başlangıç Tarihi**: 23.01.2026
+- 📅 **Bitiş Tarihi**: 24.03.2026 (Mavi vurgu)
+- ⏱️ **Toplam Süre**: 90 gün
+- ⏳ **Kalan Süre**: 61 gün (Geri sayım)
+
+#### İlerleme Göstergeleri
+- 📊 **Tamamlanma**: %5 (İlerleme çubuğu)
+- 🎯 **Durum**: Devam Ediyor (Pembe/Kırmızı badge)
+
+#### İstatistik Kartları (3-Kolon Grid)
+**Toplam Parçalar**
+- 🔢 151 adet
+- Toplam parça sayısı
+
+**Üretimdeki Parçalar**
+- 🏭 4 adet (Kırmızı/Pembe)
+- Aktif üretim
+
+**Tamamlanan Parçalar**
+- ✅ 8 adet (Yeşil)
+- Bitmiş işler
+
+#### Alt Panel - Ürün Bilgileri
+- 📦 **Toplam Ürün**: 33
+- 🔄 **Devam Eden**: 33 (Tümü aktif)
+
+</details>
+
+---
+
+### 🎨 UI/UX Tasarım Detayları
+
+#### Tab Navigasyon Sistemi
+Modern, kullanıcı dostu tab menü:
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│ 📋 PLANLAMA │ ✅ GÖREVLER │ 🏭 ÜRETİM │ 📦 MALZEME │ 📝 SİPARİŞ │
+└────────────────────────────────────────────────────────────────┘
+```
+
+#### Renk Paleti
+- 🟣 **Mor/Pembe Gradient**: Header, aktif butonlar
+- 🔵 **Mavi**: Önemli tarihler (bitiş tarihi vurgusu)
+- 🟢 **Yeşil**: Tamamlanan işlemler
+- 🔴 **Kırmızı/Pembe**: Devam eden işler
+- ⚪ **Gri/Beyaz**: Nötr bilgiler, arka plan
+
+#### Komponent Yapısı
+- **Material Design Cards**: Gölgeli, yükseltilmiş kartlar
+- **Progress Bars**: Animasyonlu %5 ilerleme çubuğu
+- **Badges**: Renkli durum göstergeleri
+- **Grid Layout**: Responsive 3-kolon yapı
+- **Icons**: Emoji bazlı görsel iyileştirmeler
+
+---
+
+### 💡 Diğer Modül Önizlemeleri
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🏭 Üretim Takip Modülü
+**Kanban Board Sistemi**
+- Sürükle-bırak iş emirleri
+- 3 durum kolonu: Bekliyor / Üretimde / Tamamlandı
+- QR kod ile parça takibi
+- Gerçek zamanlı durum güncellemesi
+- Öncelik ve termin uyarıları
+
+**Özellikler:**
+- 📱 QR okuma
+- 🔄 Sürükle-bırak
+- ⚡ Anlık güncelleme
+- 🎯 Durum göstergesi
+
+</td>
+<td width="50%">
+
+#### 📦 Malzeme Stok Yönetimi
+**Envanter Takip Sistemi**
+- Malzeme listesi ve stok seviyeleri
+- Minimum stok uyarıları (🔴 Kırmızı)
+- Tedarikçi bilgileri
+- Fiyat geçmişi ve trend analizi
+- Excel export
+
+**Özellikler:**
+- 📊 Stok grafikleri
+- ⚠️ Kritik seviye uyarısı
+- 💰 Fiyat takibi
+- 📥 Toplu import/export
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 📝 Sipariş Yönetimi
+**Sipariş Takip Paneli**
+- Yeni sipariş oluşturma
+- Durum takibi (Bekliyor → Hazırlanıyor → Sevk)
+- Müşteri bilgileri
+- Fatura entegrasyonu
+- Teslimat tarihi yönetimi
+
+**İş Akışı:**
+1. ➕ Sipariş Gir
+2. 📋 Onay Bekle
+3. 🏭 Üretime Gönder
+4. ✅ Tamamla
+
+</td>
+<td width="50%">
+
+#### 🚚 Sevkiyat Modülü
+**Lojistik Yönetim**
+- Sevk planlaması
+- İrsaliye oluşturma (PDF)
+- Kargo takip numarası
+- Teslimat raporları
+- Nakliye firması entegrasyonu
+
+**Raporlar:**
+- 📄 İrsaliye (PDF)
+- 📦 Paket listesi
+- 🚚 Sevk özeti
+- 📊 Teslimat analizi
+
+</td>
+</tr>
+</table>
+
+---
+
+### 📊 Raporlama ve Analiz
+
+#### Rapor Tipleri
+- 📈 **Excel Reports**: Detaylı veri exportu (XLSX)
+- 📄 **PDF Documents**: İrsaliye, fatura, özet raporlar
+- 📊 **Charts & Graphs**: İlerleme ve performans grafikleri
+- 📋 **Custom Templates**: Özelleştirilebilir rapor şablonları
+
+#### Filtreler ve Seçenekler
+```
+📅 Tarih Aralığı    |  🏷️ Kategori  |  👤 Kullanıcı  |  📊 Durum
+```
+
+---
+
+### 🎯 Detaylı Ekran Görüntüleri
+
+Tüm modüllerin detaylı açıklamaları ve özellikleri için:  
+👉 **[SCREENSHOTS.md](SCREENSHOTS.md)** 📸
 
 ---
 
@@ -298,25 +446,16 @@ Proje kapsamında planlanmış ama tamamlanmamış özellikler:
 
 ---
 
-## 📄 Lisans ve Telif Hakkı
+## 📄 Lisans
 
-**© 2025-2026 [Önceki İşveren Adı]**
-
-Bu proje, önceki çalıştığım kuruluşta geliştirilmiştir. Tüm fikri mülkiyet hakları ilgili kuruluşa aittir.
-
-**Bu repository:**
-- Portfolio amaçlı showcase'dir
-- Kaynak kod içermez
-- Dağıtım veya ticari kullanım için değildir
-- Sadece teknik beceri ve deneyim gösterimi içindir
-
-## 📝 Lisans
-
-**© 2026 Ozan Sert**
+**MIT License - © 2026 Ozan Sert**
 
 Bu proje portfolyo amaçlı geliştirilmiştir. Kaynak kod ve uygulamanın ticari kullanımı için iletişime geçiniz.
-- Email: [Your Email]
-- GitHub: [@ozansert](https://github.com/ozansert)
+
+### İletişim
+- 💼 **GitHub**: [@ozansert58](https://github.com/ozansert58)
+- 🔗 **LinkedIn**: [Ozan Sert](https://linkedin.com/in/ozan-sert)
+- 📧 **Email**: ozansert@example.com
 
 ---
 
@@ -326,10 +465,16 @@ Bu projeyi ziyaret ettiğiniz için teşekkür ederim. Gerçek uygulamayı görm
 
 ---
 
-**Portfolio Showcase** | **Teknik Beceri Gösterimi** | **Enterprise Project Experience**
+<div align="center">
 
----
+### 🏗️ Monolith Production Manager
 
-**Monolith Production Manager** | **Enterprise-Level Desktop Application** | **Modern Tech Stack**
+**Enterprise-Level Desktop Application** | **Modern Tech Stack** | **Real-time Sync**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ozansert58-181717?logo=github)](https://github.com/ozansert58)
+[![Tech](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)](https://electronjs.org)
+[![Tech](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)](https://reactjs.org)
+[![Tech](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Tech](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 *Geliştirme: 2025-2026 | Versiyon: 1.0.
