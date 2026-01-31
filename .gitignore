@@ -1,0 +1,31 @@
+# Portfolio showcase repository
+# No source code - documentation only
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts (if any demo files added)
+dist/
+build/
+node_modules/
+
+# Environment files (even though no code)
+.env
+.env.local
