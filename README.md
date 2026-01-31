@@ -448,13 +448,16 @@ Proje kapsamında planlanmış ama tamamlanmamış özellikler:
 
 ## 📄 Lisans
 
-**MIT License - © 2026 Ozan Sert**
+**Proprietary License - All Rights Reserved**
 
-Bu proje portfolyo amaçlı geliştirilmiştir. Kaynak kod ve uygulamanın ticari kullanımı için iletişime geçiniz.
+**© 2026 Ozan Sert**
+
+Bu proje telif haklarıyla korunmaktadır. Görüntüleme hakkı dışında hiçbir kullanım izni verilmemiştir.
+
+Detaylar için: [LICENSE](LICENSE)
 
 ### İletişim
 - 💼 **GitHub**: [@ozansert58](https://github.com/ozansert58)
-- 🔗 **LinkedIn**: [Ozan Sert](https://linkedin.com/in/ozan-sert)
 - 📧 **Email**: ozansert@example.com
 
 ---

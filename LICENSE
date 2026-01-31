@@ -1,21 +1,38 @@
-MIT License
+Proprietary License - All Rights Reserved
 
 Copyright (c) 2026 Ozan Sert
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Telif Hakkı ve Kullanım Koşulları
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Bu repository ve içerdiği tüm materyaller Ozan Sert'in telif hakkı altındadır.
+
+### İzin Verilen Kullanım:
+✅ **Görüntüleme**: Bu repository'yi görüntüleme ve inceleme hakkınız vardır.
+✅ **Portfolio Değerlendirmesi**: İşveren/müşteri değerlendirmesi için inceleme.
+
+### İzin Verilmeyen Kullanımlar:
+❌ **Kopyalama**: Kodun, tasarımın veya içeriğin kopyalanması yasaktır.
+❌ **Değiştirme**: İçeriğin değiştirilmesi veya türev eser oluşturulması yasaktır.
+❌ **Dağıtım**: İçeriğin yeniden dağıtılması yasaktır.
+❌ **Ticari Kullanım**: Ticari amaçlarla kullanılması yasaktır.
+❌ **Fork**: Repository'nin fork edilmesi yasaktır.
+
+---
+
+## Yasal Bildirim
+
+Bu proje, yazarın telif haklarıyla korunmaktadır. Hiçbir kişi veya kuruluşa kullanım, 
+değiştirme, dağıtım veya türev eser oluşturma hakkı verilmemiştir.
+
+**Bu repository sadece portfolyo gösterim amaçlıdır.**
+
+İzinsiz kullanım durumunda yasal işlem başlatılacaktır.
+
+---
+
+### İletişim
+Lisanslama veya kullanım hakkı talepleriniz için:
+- **GitHub**: [@ozansert58](https://github.com/ozansert58)
+- **Email**: ozansert@example.com
