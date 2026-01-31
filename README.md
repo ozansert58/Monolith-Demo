@@ -1,34 +1,26 @@
 # 🏗️ Monolith - Üretim Takip Yönetim Sistemi
 
-> **Portfolio Showcase Project** - Bu repository, projenin genel özelliklerini ve mimarisini sergilemek için oluşturulmuştur. Kaynak kod içermez.
+> Modern, kullanıcı dostu ve kapsamlı bir üretim takip ve yönetim sistemi
 
-![Project Status](https://img.shields.io/badge/status-completed-success)
-![Type](https://img.shields.io/badge/type-portfolio%20showcase-blue)
+![Project Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![Tech](https://img.shields.io/badge/tech-Electron%20%7C%20React%20%7C%20Firebase-orange)
 
 ---
 
-## ⚠️ Önemli Not
+## 📋 Proje Hakkında
 
-**Bu bir portfolio projesidir.** Gösterilen içerik:
-- ✅ Proje özellikleri ve yetenekler
-- ✅ Kullanılan teknolojiler
-- ✅ Mimari tasarım yaklaşımı
-- ✅ Ekran görüntüleri ve demo görselleri
-- ❌ **Çalışan kaynak kod içermez**
-- ❌ **Dağıtım veya kullanım için değildir**
+Monolith, üretim süreçlerini dijitalleştirmek ve verimliliği artırmak amacıyla geliştirdiğim **modern bir masaüstü uygulaması**dır. Electron, React ve Firebase teknolojilerini kullanarak, gerçek zamanlı üretim takibi ve yönetimi sağlayan kapsamlı bir çözüm sunuyor.
 
-**Telif Hakkı**: Bu proje önceki iş yerimde geliştirilmiştir. Tüm hakları ilgili kuruluşa aittir. Bu showcase, yalnızca teknik becerilerimi ve proje deneyimimi göstermek amacıyla oluşturulmuştur.
+### 🎯 Amaç
 
----
-
-## 📋 Proje Özeti
-
-Monolith, modern teknolojiler kullanılarak geliştirilmiş kapsamlı bir **üretim takip ve yönetim sistemi**dir. Proje, Electron framework'ü ile masaüstü uygulama olarak geliştirilmiş, React ile kullanıcı arayüzü oluşturulmuş ve Firebase ile bulut entegrasyonu sağlanmıştır.
-
-### 🎯 Proje Hedefi
-
-Üretim süreçlerini dijitalleştirmek, gerçek zamanlı takip sağlamak ve verimliliği artırmak.
+Üretim firmalarının iş süreçlerini dijitalleştirerek:
+- Gerçek zamanlı üretim takibi
+- Malzeme ve stok yönetimi
+- Raporlama ve analiz
+- Çoklu kullanıcı desteği ve rol yönetimi
+sağlamak.
 
 ---
 
@@ -187,31 +179,19 @@ src/
 - Lazy loading ve code splitting
 - Virtual scrolling (windowing)
 - Debouncing ve throttling
+### Planlama Dashboard
+Proje ilerleme takibi, tarih yönetimi ve genel bakış ekranı.
 
----
+![Planlama Dashboard](screenshots/dashboard-planlama.png)
 
-## 📸 Ekran Görüntüleri
+*Özellikler:*
+- Proje başlangıç ve bitiş tarihleri
+- Toplam süre hesaplama
+- İlerleme yüzdesi ve durum göstergesi
+- Toplam parça sayısı ve üretim durumu
+- Gerçek zamanlı istatistikler
 
-> **Not**: Gerçek ekran görüntüleri telif hakları nedeniyle paylaşılamamıştır. Aşağıda genel yapı ve özellikler açıklanmıştır.
-
-### Dashboard
-- Özet metrikler ve KPI'lar
-- Güncel üretim durumu
-- Grafik ve görselleştirmeler
-- Hızlı erişim butonları
-
-### Üretim Takip Ekranı
-- İş emri listesi
-- Süreç aşamaları (Kanban board)
-- Filtre ve arama özellikleri
-- Detaylı iş emri bilgileri
-
-### Kullanıcı Yönetimi
-- Kullanıcı listesi ve rolleri
-- Yetki atama
-- Aktivite logları
-- Profil yönetimi
-
+Daha fazla ekran görüntüsü için [SCREENSHOTS.md](SCREENSHOTS.md) dosyasına bakın.
 ### Raporlama Paneli
 - Rapor şablonları
 - Tarih aralığı seçimi
@@ -330,19 +310,11 @@ Bu proje, önceki çalıştığım kuruluşta geliştirilmiştir. Tüm fikri mü
 - Dağıtım veya ticari kullanım için değildir
 - Sadece teknik beceri ve deneyim gösterimi içindir
 
-Gerçek kaynak kod ve çalışan uygulama, telif hakları nedeniyle paylaşılmamıştır.
+## 📝 Lisans
 
----
+**© 2026 Ozan Sert**
 
-## 👤 Geliştirici
-
-**Ozan Sert**
-
-Bu proje, yazılım geliştirme becerilerimi ve enterprise seviye proje deneyimimi göstermek için hazırlanmıştır.
-
-### İletişim
-- Portfolio: [Your Website]
-- LinkedIn: [Your LinkedIn]
+Bu proje portfolyo amaçlı geliştirilmiştir. Kaynak kod ve uygulamanın ticari kullanımı için iletişime geçiniz.
 - Email: [Your Email]
 - GitHub: [@ozansert](https://github.com/ozansert)
 
@@ -356,4 +328,8 @@ Bu projeyi ziyaret ettiğiniz için teşekkür ederim. Gerçek uygulamayı görm
 
 **Portfolio Showcase** | **Teknik Beceri Gösterimi** | **Enterprise Project Experience**
 
-*Son güncelleme: Şubat 2026*
+---
+
+**Monolith Production Manager** | **Enterprise-Level Desktop Application** | **Modern Tech Stack**
+
+*Geliştirme: 2025-2026 | Versiyon: 1.0.

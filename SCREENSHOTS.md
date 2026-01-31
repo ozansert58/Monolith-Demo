@@ -1,7 +1,145 @@
-# 📸 Ekran Görüntüleri ve Mockup'lar
+# 📸 Ekran Görüntüleri
 
-> **Not**: Gerçek ekran görüntüleri telif hakları nedeniyle bu portfolio showcase'de paylaşılamamıştır.  
-> Aşağıda, projenin temel ekranlarına dair açıklamalar ve genel yapı bilgileri yer almaktadır.
+Monolith Üretim Takip Sistemi'nin çeşitli ekranlarından görüntüler ve detaylı açıklamalar.
+
+---
+
+## 🏠 Planlama Dashboard
+
+### Genel Bakış
+Planlama dashboard'u, projelerin genel durumunu ve ilerlemesini takip etmek için kullanılan ana ekrandır.
+
+![Planlama Dashboard](screenshots/dashboard-planlama.png)
+
+### Özellikler
+
+#### 📅 Tarih Yönetimi
+- **Başlangıç Tarihi**: Projenin başlama tarihi (örn: 2 Ocak 2026)
+- **Bitiş Tarihi**: Hedeflenen tamamlanma tarihi (örn: 2 Nisan 2026)
+- **Toplam Süre**: Otomatik hesaplanan proje süresi (örn: 90 gün)
+- **Kalan Gün Göstergesi**: Bitiş tarihine kalan süre (örn: 61 gün kaldı)
+
+#### 📊 İlerleme Takibi
+- **Tamamlanma Yüzdesi**: Projenin tamamlanma oranı (%5)
+- **İlerleme Çubuğu**: Görsel ilerleme göstergesi
+- **Renkli Durum Göstergeleri**:
+  - 🟣 Toplam Ürün: 33 adet
+  - ⚪ Tamamlanan: 0 adet  
+  - 🔴 Devam Eden: 33 adet
+
+#### 🔢 İstatistikler (Sağ Panel)
+- **Toplam Parça Sayısı**: 151 parça
+- **Üretimde**: 4 parça
+- **Tamamlanan**: 8 parça
+- **Gerçek Zamanlı Güncelleme**: Anlık durum değişiklikleri
+
+#### 🎨 Kullanıcı Arayüzü
+- **Tab Menü**: Planlama, Görevler, Üretim, Malzeme Stok, Siparişler, Sevkiyat
+- **Modern Tasarım**: Temiz ve kullanıcı dostu arayüz
+- **Renkli Kartlar**: Bilgi kategorilerine göre renk kodlaması
+- **Responsive Layout**: Ekran boyutuna uyumlu tasarım
+
+### Teknik Detaylar
+- React functional components
+- Real-time data binding
+- Progress bar animations
+- Color-coded status indicators
+- Responsive grid layout
+
+---
+
+## 📋 Diğer Ekranlar
+
+### 📊 Görevler (TEKLİFLER & RAPORLAR)
+- Teklif yönetimi sistemi
+- Rapor oluşturma ve görüntüleme
+- İş emirleri takibi
+
+### 🏭 Üretim Takibi
+- Kanban board görünümü
+- İş emri kartları
+- Sürükle-bırak özelliği
+- Durum güncellemeleri
+
+### 📦 Malzeme ve Stok Yönetimi
+- Malzeme listesi
+- Stok seviyeleri
+- Giriş/çıkış hareketleri
+- Düşük stok uyarıları
+
+### 📝 Sipariş Yönetimi
+- Sipariş listesi
+- Sipariş detayları
+- Tedarikçi bilgileri
+- Teslimat takibi
+
+### 🚚 Sevkiyat
+- Sevkiyat planlaması
+- Teslimat durumu
+- Lojistik takibi
+- Sevk irsaliyesi oluşturma
+
+---
+
+## 🎨 Tasarım Özellikleri
+
+### Renk Paleti
+```
+Header: Mor/Pembe gradient
+Primary: #e91e63 (Pembe)
+Secondary: #9c27b0 (Mor)
+Success: #4caf50 (Yeşil)
+Warning: #ff9800 (Turuncu)
+Info: #2196f3 (Mavi)
+Background: #f5f5f5 (Açık Gri)
+Cards: Beyaz (#ffffff)
+```
+
+### UI Bileşenleri
+- **Material Design** inspired
+- **Gradient headers** (Mor-Pembe)
+- **Card-based layout**
+- **Icon integration**
+- **Hover effects**
+- **Shadow elevations**
+
+### Typography
+- **Başlıklar**: Bold, büyük punto
+- **İstatistikler**: Extra bold, vurgulu
+- **Açıklamalar**: Regular, okunabilir
+- **Renkli metin**: Durum göstergesi için
+
+---
+
+## 📱 Responsive Tasarım
+
+Uygulama farklı ekran boyutlarında optimize edilmiştir:
+- Desktop: 1366px ve üzeri (tam özellikler)
+- Laptop: 1024px - 1365px (kompakt görünüm)
+- Tablet: 768px - 1023px (adaptif layout)
+
+---
+
+## 🔄 Dinamik Özellikler
+
+### Gerçek Zamanlı Güncellemeler
+- Firebase listeners ile anlık veri senkronizasyonu
+- Durum değişikliklerinde otomatik UI güncelleme
+- Optimistic UI updates
+
+### Animasyonlar
+- İlerleme çubuğu animasyonu
+- Sayı artış/azalış efektleri
+- Hover transitions
+- Loading states
+
+---
+
+*Not: Ekran görüntüleri gerçek üretim verisini içermektedir. Müşteri bilgileri ve hassas veriler kaldırılmıştır.*
+
+---
+
+**© 2026 Monolith Production Manager - Ozan Sert**
 
 ---
 
