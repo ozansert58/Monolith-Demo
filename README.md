@@ -450,6 +450,7 @@ Proje kapsamında planlanmış ama tamamlanmamış özellikler:
 
 **Proprietary License - All Rights Reserved**
 
+<<<<<<< HEAD
 **© 2026 Ozan Sert**
 
 Bu proje telif haklarıyla korunmaktadır. Görüntüleme hakkı dışında hiçbir kullanım izni verilmemiştir.
@@ -458,7 +459,8 @@ Detaylar için: [LICENSE](LICENSE)
 
 ### İletişim
 - 💼 **GitHub**: [@ozansert58](https://github.com/ozansert58)
-- 📧 **Email**: ozansert@example.com
+- � **LinkedIn**: [Ozan Sert](https://www.linkedin.com/in/ozan-sert-261857228/)
+- 📧 **Email**: ozansert93@hotmail.com
 
 ---
 
